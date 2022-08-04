@@ -28,7 +28,7 @@ set history=1000 "历史记录条数
 set autoread "自动读取文件编辑
 set nu "显示行号
 set list "显示不可见字符
-set listchars=tab:→\ ,trail:␣,extends:…,eol:⏎
+set listchars=tab:<->,trail:␣,extends:…
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "Coc补全
 Plug 'voldikss/vim-translator' "翻译器
